@@ -9,6 +9,7 @@ struct s_hash
 {
 	char *key;
 	char *value;
+	int   counter;
 	t_hash *next;
 };
 #endif
